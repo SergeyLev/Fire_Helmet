@@ -12,12 +12,8 @@ Sergejs Levsovs - Cognizant
 2. [Video](#video)
 3. [The idea](#the-idea)
 4. [How it works](#how-it-works)
-5. [Diagrams](#diagrams)
-6. [Documents](#documents)
-7. [Datasets](#datasets)
-8. [Technology](#technology)
-9. [Getting started](#getting-started)
-9. [Resources](#resources)
+5. [Getting started](#getting-started)
+6. [Resources](#resources)
 10. [License](#license)
 
 ## Overview
@@ -67,6 +63,12 @@ and potential action, such as signal firefighter to get clear of smoke in case i
 
 Virtual wearable interface to allow firefighter to interact with device.
 
+## Getting started
 
+Use the following steps to get As Is solution up and running.
+
+### Hardware
+
+VR headset used in prototyping is Trust VR. For more information follow this [link]( https://www.trust.com/en/virtualreality).
 
 
