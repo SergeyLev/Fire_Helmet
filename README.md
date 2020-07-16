@@ -82,6 +82,6 @@ Lots of hotglue will be required as well.
 
 1. [Raspbian Buster](https://www.raspberrypi.org/downloads/raspberry-pi-os/) needs to be installed on Raspberry Pi
 2. [Python 3](https://www.python.org/download/releases/3.0/) should come with Raspbian
-3. For [OpenCV](https://opencv.org/) use sudo apt-get install libopencv-dev python3-opencv `<addr>`
+3. For [OpenCV](https://opencv.org/) use '''sudo apt-get install libopencv-dev python3-opencv'''
 
 
