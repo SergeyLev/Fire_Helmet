@@ -70,8 +70,18 @@ Use the following steps to get As Is solution up and running.
 ### Hardware
 
 1. [Trust VR]( https://www.trust.com/en/virtualreality) headset
-2. [Raspbery Pi 4 model B](https://www.raspberrypi.org/products/raspberry-pi-4-model-b/) with 4GM RAM
+2. [Raspberry Pi 4 model B](https://www.raspberrypi.org/products/raspberry-pi-4-model-b/) with 4GM RAM
 3. IR PiCamera
 4. Google Coral [USB Accelerator](https://coral.ai/products/accelerator/)
+5. 7inch HDMI Display-C
+
+Some changes to VR headset and manufacturing of the mount will be required to fit display to the hedset.
+Lots of hotglue will be required as well.
+
+### Software Prerequisite
+
+1. [Raspbian Buster](https://www.raspberrypi.org/downloads/raspberry-pi-os/) needs to be installed on Raspberry Pi
+2. [Python 3](https://www.python.org/download/releases/3.0/) should come with Raspbian
+3. For [OpenCV](https://opencv.org/) use sudo apt-get install libopencv-dev python3-opencv `<addr>`
 
 
