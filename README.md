@@ -69,7 +69,7 @@ Use the following steps to get As Is solution up and running.
 
 ### Hardware
 
-1. VR headset used in prototyping is Trust VR. For more information follow this [link]( https://www.trust.com/en/virtualreality).
+1. [Trust VR]( https://www.trust.com/en/virtualreality) headset
 2. [Raspbery Pi 4 model B](https://www.raspberrypi.org/products/raspberry-pi-4-model-b/) with 4GM RAM
 3. IR PiCamera
 4. Google Coral [USB Accelerator](https://coral.ai/products/accelerator/)
