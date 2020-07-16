@@ -35,6 +35,9 @@ in case of firefighter unconsciousness.
 
 ## Video
 
+Testing object detection on split screen.
+[![Testing object detection on split screen. ](./images/mq2.jpg)](https://www.youtube.com/watch?v=BS9kmBgaW4c)
+
 ## The idea
 
 This prototype aims to reduce injury and mortality rate of firefighters by introducing AI and IoT technology to their uniform.
@@ -54,4 +57,6 @@ such as frames per second and amount of frames with positive detection, for visu
 
 ### Long Run.
 
+In the future development of full uniform will be required. 
+Additional sensors to get information of vital signs, air quality, accelerometer to detect movement. Acquired 
 
