@@ -60,6 +60,11 @@ such as frames per second and amount of frames with positive detection, for visu
 
 In the future development of full uniform will be required.
 
-Additional sensors to get information of vital signs, air quality, accelerometer to detect movement. Acquired information will be sent to cloud via IoT for analysis and potential action, such as signal firefighter to get clear of smoke in case if blood oxygen level drops low.
+Additional sensors to get information of vital signs, air quality, accelerometer to detect movement. Acquired information will be sent to cloud via IoT for analysis 
+and potential action, such as signal firefighter to get clear of smoke in case if blood oxygen level drops low.
+
+Virtual wearable interface to allow firefighter to interact with device.
+
+
 
 
