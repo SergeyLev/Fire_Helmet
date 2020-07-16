@@ -13,8 +13,7 @@ Sergejs Levsovs - Cognizant
 3. [The idea](#the-idea)
 4. [How it works](#how-it-works)
 5. [Getting started](#getting-started)
-6. [Resources](#resources)
-10. [License](#license)
+6. [License](#license)
 
 ## Overview
 
@@ -82,6 +81,17 @@ Lots of hotglue will be required as well.
 
 1. [Raspbian Buster](https://www.raspberrypi.org/downloads/raspberry-pi-os/) needs to be installed on Raspberry Pi
 2. [Python 3](https://www.python.org/download/releases/3.0/) should come with Raspbian
-3. For [OpenCV](https://opencv.org/) use '''sudo apt-get install libopencv-dev python3-opencv'''
+3. For [OpenCV](https://opencv.org/) use 'sudo apt-get install libopencv-dev python3-opencv' without quotes
+4. To use USB Accelerator for object detection follow instalation guide [here](https://coral.withgoogle.com/docs/accelerator/get-started/)
+
+### Steps
+
+1. Install all prerequisites
+2. Clone repository anywhere
+3. Create bash script on desktop to launch solution by calling 'python3 Path_to_Repository\detect_obj.py' without quotes
+
+## License
+
+This solution starter is made available under the [Apache 2 License](LICENSE).
 
 
