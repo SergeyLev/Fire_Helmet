@@ -77,6 +77,10 @@ Use the following steps to get As Is solution up and running.
 Some changes to VR headset and manufacturing of the mount will be required to fit display to the hedset.
 Lots of hotglue will be required as well.
 
+End result.
+
+![VR Headset](/images/IMG_20200618_103121.jpg)
+
 ### Software Prerequisite
 
 1. [Raspbian Buster](https://www.raspberrypi.org/downloads/raspberry-pi-os/) needs to be installed on Raspberry Pi
