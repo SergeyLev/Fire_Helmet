@@ -54,7 +54,9 @@ In case if object was detected model returns coordinates of the object in the fr
 of the object eg. “person”. Same time OpenCV is used to split screen, to accommodate vision to both eyes. Watson IoT is used to send live data to cloud, 
 such as frames per second and amount of frames with positive detection, for visualization.
 
+### Diagram
 
+![Disaster resiliency architecture diagram](/images/Fireman.png)
 
 ### Long Run.
 
