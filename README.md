@@ -87,7 +87,7 @@ Lots of hotglue will be required as well.
 ### Steps
 
 1. Install all prerequisites
-2. Clone repository anywhere
+2. Clone repository anywhere on your Raspberry Pi
 3. Create bash script on desktop to launch solution by calling 'python3 Path_to_Repository\detect_obj.py' without quotes
 
 ## License
