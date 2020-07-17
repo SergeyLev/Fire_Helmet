@@ -1,6 +1,6 @@
 # Firefighter Helmet
 
-This solution was created by Sergejs Levsovs as univercity project and for Call for Code 2020
+This solution was created by Sergejs Levsovs as university project and for Call for Code 2020
 
 ## Author
 
@@ -74,8 +74,8 @@ Use the following steps to get As Is solution up and running.
 4. Google Coral [USB Accelerator](https://coral.ai/products/accelerator/)
 5. 7inch HDMI Display-C
 
-Some changes to VR headset and manufacturing of the mount will be required to fit display to the hedset.
-Lots of hotglue will be required as well.
+Some changes to VR headset and manufacturing of the mount will be required to fit display to the headset.
+Lots of hot glue will be required as well.
 
 End result.
 
@@ -86,7 +86,7 @@ End result.
 1. [Raspbian Buster](https://www.raspberrypi.org/downloads/raspberry-pi-os/) needs to be installed on Raspberry Pi
 2. [Python 3](https://www.python.org/download/releases/3.0/) should come with Raspbian
 3. For [OpenCV](https://opencv.org/) use 'sudo apt-get install libopencv-dev python3-opencv' without quotes
-4. To use USB Accelerator for object detection follow instalation guide [here](https://coral.withgoogle.com/docs/accelerator/get-started/)
+4. To use USB Accelerator for object detection follow installation guide [here](https://coral.withgoogle.com/docs/accelerator/get-started/)
 
 ### Steps
 
