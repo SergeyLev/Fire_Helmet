@@ -127,7 +127,7 @@ try:
             t2secs = end2 - timer2
             qfps = round(queuepulls / t2secs, 2)
 
-        #iot.send_data(fps, detections, label_txt)
+        iot.send_data(fps, detections, label_txt)
         #  Clear the stream in preparation for the next frame
         rawCapture.rawCapture.truncate(0)
 
