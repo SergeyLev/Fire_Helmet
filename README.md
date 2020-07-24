@@ -1,5 +1,7 @@
 # Firefighter Helmet
 
+![Logo](/images/115747453_588226818542576_165002983828129248_n.png)
+
 This solution was created by Sergejs Levsovs as university project and for Call for Code 2020
 
 ## Author
