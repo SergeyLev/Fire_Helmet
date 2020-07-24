@@ -17,6 +17,7 @@ from iot_watson import IoT
 # Misc vars
 queuepulls = 0.0
 detections = 0
+label_txt = None
 fps = 0.0
 qfps = 0.0
 confThreshold = 0.75
@@ -93,7 +94,7 @@ try:
             for detection in out:
                 if detection[0] == 0 or detection[0] == 16 or detection[0] == 17:
                     objID = detection[0]
-                    labeltxt = labels.my_labels[objID]
+                    label_txt = labels.my_labels[objID]
                     confidence = detection[1]
                     xmin = detection[2]
                     ymin = detection[3]
@@ -101,10 +102,13 @@ try:
                     ymax = detection[5]
                     if confidence > confThreshold:
                         set_bonding_box(frame, xmin, xmax, ymin, ymax)
-                        set_label(frame, labeltxt, xmin, ymin)
-                        set_label_text(frame, labeltxt, confidence, xmin, ymin)
+                        set_label(frame, label_txt, xmin, ymin)
+                        set_label_text(frame, label_txt, confidence, xmin, ymin)
                         #  Positive detections per frame not object
-                        detections += 1
+                        detections = True
+                    else:
+                        detections = False
+                        label_txt = None
 
             queuepulls += 1
 
@@ -123,7 +127,7 @@ try:
             t2secs = end2 - timer2
             qfps = round(queuepulls / t2secs, 2)
 
-        iot.send_data(fps, detections)
+        #iot.send_data(fps, detections, label_txt)
         #  Clear the stream in preparation for the next frame
         rawCapture.rawCapture.truncate(0)
 
