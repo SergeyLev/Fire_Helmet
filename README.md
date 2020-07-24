@@ -46,7 +46,7 @@ This prototype aims to reduce injury and mortality rate of firefighters by intro
 
 Raspbery Pi, PiCamera, 7inch screen and Coral USB accelerator were attached to VR headset.
 
-PiCamera captures video, so firefigters head can be fully covered for protection from fire, smoke, debris. Each frame is analyzed by edgetpu object detection model. 
+PiCamera captures video, so firefighters head can be fully covered for protection from fire, smoke, debris. Each frame is analyzed by edgetpu object detection model. 
 In case if object was detected model returns coordinates of the object in the frame. OpenCV module uses coordinates to draw a rectangle around the object and a label 
 of the object eg. “person”. Same time OpenCV is used to split screen, to accommodate vision to both eyes. Watson IoT is used to send live data to cloud, 
 such as frames per second and amount of frames with positive detection, for visualization.
