@@ -6,7 +6,7 @@ This solution was created by Sergejs Levsovs as university project and for Call 
 
 ## Author
 
-Sergejs Levsovs - Cognizant
+Sergejs Levsovs
 
 ## Content
 
