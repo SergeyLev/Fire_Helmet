@@ -2,7 +2,8 @@
 
 ![Logo](/images/115747453_588226818542576_165002983828129248_n.png)
 
-This solution was created by Sergejs Levsovs as university project and for Call for Code 2020
+This solution was created by Sergejs Levsovs as university project and for Call for Code 2020.
+On September 16th, solution was announced as European Finalist of Call For Code 2020.
 
 ## Author
 
